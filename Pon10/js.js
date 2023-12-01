@@ -64,15 +64,11 @@ function load(){
 function open2(){
     if (document.getElementById("magaz").style.display == 'inline-block') { 
         document.getElementById("magaz").style.display = "none";
-        document.getElementById("click").style.display = "inline-block";
-        document.getElementById("rublef").style.display = "inline-block";
         document.getElementById("kopeika").style.display = "inline-block";
 
       }
       else {
        document.getElementById("magaz").style.display = "inline-block";
-       document.getElementById("click").style.display = "none";
-       document.getElementById("rublef").style.display = "none";
        document.getElementById("kopeika").style.display = "none";
 
 
